@@ -23,7 +23,7 @@ This repo contains **three modular CNN experiments** on MNIST, implemented as `m
 ├── model3.py              # Model_3 (final sub-8k)
 ├── train.py               # Common trainer (CUDA / MPS / CPU)
 ├── README.md
-├── CHANGELOG.md
+├── MNIST_Sub_8K.ipynb
 └── RF.md
 ```
 
@@ -153,8 +153,7 @@ See [`RF.md`](https://github.com/SXD390/ERA-V4-Session_6_MNIST_SUB_8K_Params/blo
 * **Model 3:** `model3.py` (**final**, ≤8k, ≥99.4% consistent)
 * **Trainer:** `train.py`
 * **RF details:** `RF.md`
-* **Changelog:** `CHANGELOG.md`
-* **Master .ipynb file**
+* **Master MNIST_Sub_8K.ipynb file**
 
 ---
 
