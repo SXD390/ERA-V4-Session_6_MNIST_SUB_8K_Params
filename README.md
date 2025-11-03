@@ -48,7 +48,7 @@ This repo contains **three modular CNN experiments** on MNIST, implemented as `m
 
 * **Target:** Reduce params toward 8k while keeping ≥99.3%.
 * **Results:** ~**9,382** params; best test **99.27%**.
-* **Analysis:** Close to target; slight underfit vs Model 1. Final step: sub-8k with BN + OneCycleLR.
+* **Analysis:** Close to target; slight underfit vs Model 1. Final step: sub-8k with BN + OneCycleLR. I noticed that the tree structure(Squeeze - pull) of CNN didn't work here. The slow upscaling of channels(in final model) helped.
 
 ### Third Attempt — **Model 3 (Final)** (`model3.py`)
 
