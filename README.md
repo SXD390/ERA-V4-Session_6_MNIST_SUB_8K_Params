@@ -138,7 +138,7 @@ This repo contains **three modular CNN experiments** on MNIST, implemented as `m
 
 ## 📊 Receptive Field
 
-See [`RF.md`](Receptive Field (RF).md) for per-layer RF tables and effective RF at the logits for each model:
+See [`RF.md`](https://github.com/SXD390/ERA-V4-Session_6_MNIST_SUB_8K_Params/blob/main/Receptive%20Field%20(RF).md) for per-layer RF tables and effective RF at the logits for each model:
 
 * Model 1: **32 px**
 * Model 2: **40 px**
